@@ -8,8 +8,9 @@ Requires ImageMagick, Ghostscript, and Tesseract be installed and functioning pr
 * Assumes input directory of ~/Documents/Scanned see oic/bin/oic.sh to change.
 * Scan images as pdfs (Hi DPI and as text recommended) into the input directory
 * pdfoic.sh
-* pdfs and output files will be in input directory/YYYY/MM/DD/HHMM/ (execution date time not contents date time).
+* copies of pdfs and output files will be in input directory/YYYY/MM/DD/HHMM/ (execution date time not contents date time).
     * output files will be formatted using the contents date YYYY-MM-DD_catagory_$$-cents_source_document.
+    * missing parts to the output file name represent problems with ocr or regexs (update manually).
 * Categories:
     * There can only be one final category.
         * no empty lines in oic/category/*.txt
