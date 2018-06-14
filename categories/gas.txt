@@ -1,4 +1,0 @@
-gas
-gallons
-pump
-regular

@@ -1,7 +1,0 @@
-lunch
-breakfast
-dinner
-supper
-server
-water
-dine
